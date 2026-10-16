@@ -18,14 +18,14 @@ Daily retail performance data was previously scattered across separate Excel fil
 
 ## 🔄 How It Works (ETL & Data Architecture)
 1. **Source Files**: Consolidates 7 source files including Sales, Target, Last Month, Last Year, and Stock Ageing records[cite: 1].
-2. **Power Query Transformation**: Handles data cleansing, column restructuring, and merging workflows[cite: 1].
+2. **Power Query Transformation**: Handles data cleansing, column restructuring, and merging workflows.
 3. **Power Pivot Model**: Establishes a star/snowflake schema with active relationships between fact tables and dimensions (`Store_WH`, `Category`, `Calendar`)[cite: 1, 7].
 4. **DAX Measures**: Implements dynamic calculations for KPIs such as:
    * `MTD Net Sales`[cite: 6]
    * `MTD Target` & `Target Ach%`[cite: 6]
    * `MTD GP` & `MTD GP Ach%`[cite: 1, 6]
    * `M-o-M Sale` & `M-o-M GP`[cite: 6]
-   * `MTD NOB` (Number of Bills) & `Avg Ticket Size`[cite: 6]
+   * `MTD NOB` (Number of Bills) & `Avg Ticket Size`
 5. **Interactive Dashboard**: Features summary cards, dynamic slicers, regional charts, store comparisons, and stock value analytics[cite: 1, 4].
 
 ## 📈 Business Impact
